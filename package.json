@@ -1,0 +1,12 @@
+{
+  "name": "node-07-http-server-url",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercise 7 - Node.js: a basic HTTP server, the URL module and handling requests by method/headers/URL - starter with tests",
+  "scripts": {
+    "test": "node --test --test-reporter=./test/reporter.mjs test/ex1.test.js test/ex2.test.js test/ex3.test.js test/ex4.test.js test/ex5.test.js test/ex6.test.js test/ex7.test.js test/ex8.test.js test/ex9.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
