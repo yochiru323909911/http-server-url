@@ -11,3 +11,12 @@
 const http = require("http");
 
 // write your code here
+
+const server = http.createServer((req, res) => {
+  console.log(`Method: ${req.method}`);
+  console.log(`URL: ${req.url}`);
+  console.log(`HTTP Version: ${req.httpVersion}`);
+  res.end("Request logged in the terminal.");
+});
+
+server.listen(3000, () => console.log("Server running on http://localhost:3000"));
